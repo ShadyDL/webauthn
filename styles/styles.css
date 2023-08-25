@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60ch;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-block: 1rem;
+}
+
+input,
+button {
+  padding: 0.5rem;
+}
+
+hr {
+  width: 85%;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
